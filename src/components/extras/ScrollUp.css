@@ -1,0 +1,10 @@
+.arrow-up{
+    font-size: 40px !important;
+    color: white;
+    background: gray;
+    border-radius: 50%;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}

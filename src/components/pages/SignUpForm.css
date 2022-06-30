@@ -1,0 +1,92 @@
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+
+
+.form-wrapper input:not(.checkbox){
+    width: 40%;
+    margin: 15px 0;
+    height: 80px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+
+}
+.icon-input{
+    width: 40%;
+    position: relative;
+}
+
+.icon-input input{
+    width: 100% !important;
+    
+}
+
+.eye-icon{
+    width: 24px;
+    position: absolute;
+    bottom: 45px;
+    right: 15px;
+    cursor: pointer;
+   
+}
+
+.sign-up-header{
+    margin-bottom: 30px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.checkbox{
+    margin-right: 15px;
+
+    
+}
+
+
+.signup>input::placeholder,.icon-input input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.signup-btn{
+    margin: 15px 0;
+}
+
+.login-link{
+    margin:20px 0;
+}
+
+@media screen and (max-width:768px) {
+    .icon-input, .form-wrapper input:not(.checkbox){
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .icon-input, .form-wrapper input:not(.checkbox){
+        width: 90%;
+    }
+    .checkbox{
+        margin-right: 10px !important;
+    }
+}

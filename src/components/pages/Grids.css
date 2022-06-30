@@ -1,0 +1,38 @@
+.grid-container{
+    padding: 100px 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 50px;
+
+}
+
+
+.grid-col>.icon{
+    background: #727171;
+    color: #fff;
+    font-size: 45px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.grid-heading{
+    margin: 15px 0;
+}
+
+@media screen and (max-width:734px) {
+    .grid-container{
+        padding: 60px 40px;
+        grid-template-columns: 1fr;
+
+
+    }
+
+    
+    .grid-col{
+        width: 100%;
+
+
+    }
+
+}

@@ -1,0 +1,96 @@
+.card-slider-container{
+    padding:40px 60px;
+    
+}
+
+.card-slider-heading,.card-slider-desc{
+    text-align: center;
+}
+
+
+
+.card-slider{
+    border: 1px solid lightgrey;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.card-header{
+    width: 100%;
+}
+
+.card-header > img{
+    height: 150px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 18px;
+    height: 350px;
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card-title{
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.instructor{
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.ratings{
+    display: flex;
+    margin: 10px 0;
+    
+}
+.rating{
+    margin-right: 8px;
+}
+.rating-sold-col{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.react-simple-star-rating>.filled-icons>svg,.react-simple-star-rating>.empty-icons>svg{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.price{
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.swiper-button-prev,.swiper-button-next{
+    color: gray !important;
+}
+
+@media screen and (max-width:411px) {
+    .card-slider-container{
+        padding:40px 20px;
+        
+    }
+    .swiper-button-prev::after,.swiper-button-next::after{
+        font-size: 15px;
+    }
+}
+
+
+
+

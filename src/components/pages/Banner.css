@@ -1,0 +1,44 @@
+
+
+.banner{
+    display: grid;
+    padding: 40px 60px;
+    grid-template-columns: 1fr 1fr;
+}
+.banner-col{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    padding: 30px;
+    width: 80%;
+}
+.banner-desc{
+    text-align: center;
+}
+
+.banner-heading{
+    margin: 15px 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:857px) {
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 45px 40px;
+
+    }
+    .banner-col{
+        width: 100%;
+    }
+
+}
